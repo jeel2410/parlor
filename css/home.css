@@ -1,0 +1,196 @@
+body{
+    background: #fafafa;
+    display: block;
+    margin: 0px;
+}
+.indexs .webshow{
+    height: 56px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+    will-change: padding-left,padding-right;
+    position: relative;
+}
+.indexs .webshow .logo{
+    width: 36px;
+    height: 36px;
+}
+.indexs .webshow .logo img{
+    width: 100%;
+    height: 100%;
+}
+.indexs .webshow span{
+    display: inline-block;
+    width: 74%;
+    color: #616161;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.indexs .webshow .download{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.indexs .webshow .download a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+}
+.indexs .webshow .download a img{
+    width: 100%;
+    height: 100%;
+}
+.indextitle{
+    background: #fafafa;
+}
+.indextitle .toptitle{
+    text-align: center;
+    margin-top: 12px;
+    color: #009688;
+    font-size: 28px;
+}
+.indextitle .bottomtitle{
+    text-align: center;
+    margin-top: -23px;
+    color: #9a9a9a;
+    font-size: 16px;
+}
+.swipebox img{
+    display: block;
+    width: 100%;
+    height: 720px;
+    margin: 0 auto;
+    transition: 0.3s;    
+} 
+.indexlist{
+    width: 100%;
+    padding: 20px 0 64px 0;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+.indexlist .list_content{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    transition: .3s cubic-bezier(.25,.8,.5,1);
+}
+.indexlist .list_content .list_ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.indexlist .list_content .list_ul .list_li{
+    width: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+    list-style-type: none;  
+
+}
+.indexlist .list_content .list_ul .list_li ol{
+    background-color: #fff;
+    border-color: #fff;
+    color: rgba(0,0,0,.87);
+    transition: .3s cubic-bezier(.25,.8,.5,1);
+    box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    overflow: hidden;
+}
+.indexlist .list_content .list_ul .list_li ol .list_image_box {
+    width: 100%;
+    height: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.list_ul .list_li ol .list_img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+} 
+
+.list_ul .list_li ol .info{
+    height: 58px;
+    overflow: hidden;
+    padding: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgba(0,0,0,.87);
+}
+.van-multi-ellipsis--l3 {
+    -webkit-line-clamp: 3;
+}
+.list_ul .list_li ol .price {
+    display: inline-block;
+    color: #f39839;
+    padding: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-left: -38px;
+    margin-bottom: -6px;
+}
+.list_ul .list_li ol .orimg1{
+    background-image: url('../img/p1.jpg');
+}
+.list_ul .list_li ol .orimg2{
+    background-image: url('../img/p2.jpg');
+}
+.list_ul .list_li ol .orimg3{
+    background-image: url('../img/p3.jpg');
+}
+.list_ul .list_li ol .orimg4{
+    background-image: url('../img/p4.jpg');
+}
+.list_ul .list_li ol .orimg5{
+    background-image: url('../img/p5.jpg');
+}
+.list_ul .list_li ol .orimg6{
+    background-image: url('../img/p6.jpg');
+}
+.list_ul .list_li ol .orimg7{
+    background-image: url('../img/p7.jpg');
+}
+.list_ul .list_li ol .orimg8{
+    background-image: url('../img/p8.jpg');
+}
+.list_ul .list_li ol .orimg9{
+    background-image: url('../img/p9.jpg');
+}
+.list_ul .list_li ol .orimg10{
+    background-image: url('../img/p10.jpg');
+}
+.list_ul .list_li ol .orimg11{
+    background-image: url('../img/p11.jpg');
+}
+.list_ul .list_li ol .orimg12{
+    background-image: url('../img/p12.jpg');
+}
+.list_ul .list_li ol .orimg13{
+    background-image: url('../img/p13.jpg');
+}
+.list_ul .list_li ol .orimg14{
+    background-image: url('../img/p14.jpg');
+}
+.list_ul .list_li ol .orimg15{
+    background-image: url('../img/p15.jpg');
+}
+.list_ul .list_li ol .orimg16{
+    background-image: url('../img/p16.jpg');
+}
